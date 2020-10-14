@@ -17,7 +17,7 @@ Theses will be added as development continues.
 
 
 ## License
-BSD, see [LICENSE](LICENSE) for details.
+BSD 3-Clause License, see [LICENSE](LICENSE) for details.
 
 
 ## Start Using
