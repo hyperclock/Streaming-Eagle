@@ -32,7 +32,7 @@ is a multilingual streaming/blogging system with many features planned to be inc
 
 
 ## Documentation
-There may be some on the [WIKI](../wiki) or on the [project's main site](https://streaming-eagle.com)
+There may be some on the [WIKI](../../wiki) or on the [project's main site](https://streaming-eagle.com)
 
 
 ## License
