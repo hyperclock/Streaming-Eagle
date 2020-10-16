@@ -1,0 +1,47 @@
+{# templates/sidebar/index.html.twig #}
+
+<section class="section">
+  <header>
+    <h3>{{ 'sidebar.choose.lang'|trans({}, 'sidebar') }}</h3>
+  </header>
+  <p>
+  <div class="row">
+    <div class="col-xs-3 col-sm-1 col-md-1 col-xs-offset-6 col-sm-offset-10 col-md-offset-10">
+      <a href="/en" class="thumbnail">
+        <img src="{{ asset('images/flags/us.png') }}" alt="english">
+      </a>
+    </div>
+    <div class="col-xs-3 col-sm-1 col-md-1">
+      <a href="/de" class="thumbnail">
+        <img src="{{ asset('images/flags/de.png') }}" alt="german">
+      </a>
+    </div>
+
+  </p>
+</section>
+
+<section class="section">
+  <header>
+    <h3>{{ 'sidebar.tag.cloud'|trans({}, 'sidebar') }}</h3>
+  </header>
+  <p class="tags">
+
+  </p>
+</section>
+
+<section class="section">
+  <header>
+    <h3>{{ 'sidebar.latest.comments'|trans({}, 'sidebar') }}</h3>
+  </header>
+
+  <p>There are no recent comments</p>
+</section>
+
+<section class="section">
+  <header>
+    <h3>{{ 'sidebar.software.version'|trans({}, 'sidebar') }}:</h3>
+  </header>
+  <p>
+    Streaming Eagle <small>v{{ shivas_app_version }}</small>
+  </p>
+</section>

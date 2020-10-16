@@ -26,5 +26,13 @@ class HomepageController extends AbstractController
             'controller_name' => 'HomepageController',
         ]);
     }
-    
+
+    /**
+     * @Route("/sidebar", name="sidebar")
+     */
+    public function sidebar() {
+        return $this->render('sidebar/index.html.twig');
+    }
+
+
 }
