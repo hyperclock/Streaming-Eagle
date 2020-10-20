@@ -24,7 +24,7 @@
         "version": "3.0.2"
     },
     "doctrine/dbal": {
-        "version": "2.11.1"
+        "version": "2.11.3"
     },
     "doctrine/doctrine-bundle": {
         "version": "2.0",
@@ -416,7 +416,7 @@
         "version": "v5.1.7"
     },
     "symfony/serializer-pack": {
-        "version": "v1.0.3"
+        "version": "v1.0.4"
     },
     "symfony/service-contracts": {
         "version": "v2.2.0"
@@ -428,7 +428,7 @@
         "version": "v5.1.7"
     },
     "symfony/test-pack": {
-        "version": "v1.0.6"
+        "version": "v1.0.7"
     },
     "symfony/translation": {
         "version": "3.3",
@@ -464,7 +464,7 @@
         ]
     },
     "symfony/twig-pack": {
-        "version": "v1.0.0"
+        "version": "v1.0.2"
     },
     "symfony/validator": {
         "version": "4.3",

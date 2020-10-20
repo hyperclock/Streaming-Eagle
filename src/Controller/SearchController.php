@@ -10,9 +10,9 @@ class SearchController extends AbstractController
     /**
      * @Route("/search", name="search")
      */
-    public function search()
+    public function index()
     {
-        return $this->render('search/search.html.twig', [
+        return $this->render('search/index.html.twig', [
             'controller_name' => 'SearchController',
         ]);
     }

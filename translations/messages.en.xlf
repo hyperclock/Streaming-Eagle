@@ -6,15 +6,19 @@
 <!--|| SITE ||-->
             <trans-unit id="_site.title">
                 <source>site.title</source>
-                <target>Streaming Eagle</target>
+                <target>Symfony i18n Base</target>
             </trans-unit>
             <trans-unit id="_site.tagline">
                 <source>site.tagline</source>
-                <target>The Sky Is Not The Limit!</target>
+                <target>Global, International, i18n!</target>
             </trans-unit>
             <trans-unit id="_site.name">
                 <source>site.name</source>
-                <target>Streaming Eagle</target>
+                <target>Symfony i18n Base</target>
+            </trans-unit>
+            <trans-unit id="_project.name">
+                <source>projct.name</source>
+                <target>Symfony i18n Base</target>
             </trans-unit>
 
 <!--|| NAV ||-->
@@ -48,7 +52,7 @@
 <!--|| FOOTER ||-->
             <trans-unit id="_footer.copy">
                 <source>footer.copy</source>
-                <target>Streaming Eagle</target>
+                <target>Symfony i18n Base</target>
             </trans-unit>
             <trans-unit id="_footer.mail.username">
                 <source>footer.mail.username</source>
@@ -56,7 +60,7 @@
             </trans-unit>
             <trans-unit id="_footer.mail.domain">
                 <source>footer.mail.domain</source>
-                <target>streaming-eagle.com</target>
+                <target>hyperclock.eu</target>
             </trans-unit>
             <trans-unit id="_footer.mail.title">
                 <source>footer.mail.title</source>
