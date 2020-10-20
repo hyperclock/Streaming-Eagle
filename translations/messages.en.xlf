@@ -6,7 +6,7 @@
 <!--|| SITE ||-->
             <trans-unit id="_site.title">
                 <source>site.title</source>
-                <target>Symfony i18n Base</target>
+                <target>Streaming Eagle</target>
             </trans-unit>
             <trans-unit id="_site.tagline">
                 <source>site.tagline</source>
@@ -14,11 +14,11 @@
             </trans-unit>
             <trans-unit id="_site.name">
                 <source>site.name</source>
-                <target>Symfony i18n Base</target>
+                <target>Streaming Eagle</target>
             </trans-unit>
             <trans-unit id="_project.name">
                 <source>projct.name</source>
-                <target>Symfony i18n Base</target>
+                <target>Streaming Eagle</target>
             </trans-unit>
 
 <!--|| NAV ||-->
@@ -52,7 +52,7 @@
 <!--|| FOOTER ||-->
             <trans-unit id="_footer.copy">
                 <source>footer.copy</source>
-                <target>Symfony i18n Base</target>
+                <target>Streaming Eagle</target>
             </trans-unit>
             <trans-unit id="_footer.mail.username">
                 <source>footer.mail.username</source>
@@ -65,6 +65,24 @@
             <trans-unit id="_footer.mail.title">
                 <source>footer.mail.title</source>
                 <target>JMColeman (hyperclock)</target>
+            </trans-unit>
+
+<!--|| LEGALS ||-->
+            <trans-unit id="_legal.terms">
+                <source>legal.terms</source>
+                <target>Terms</target>
+            </trans-unit>
+            <trans-unit id="_legal.disclaimer">
+                <source>legal.disclaimer</source>
+                <target>Disclaimer</target>
+            </trans-unit>
+            <trans-unit id="_legal.policy">
+                <source>legal.policy</source>
+                <target>Privacy Policy</target>
+            </trans-unit>
+            <trans-unit id="_legal.imprint">
+                <source>legal.imprint</source>
+                <target>Imprint</target>
             </trans-unit>
 
         </body>

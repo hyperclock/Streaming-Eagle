@@ -93,7 +93,7 @@
       </div>
       {% block footer %}
       <!--|| Share in social networks the page that the user is reading ||-->
-      <div class="card-footer">
+      <div class="card-footer footer">
 
         <div id="socialNetworks" class="text-center">
           <a id="shareFB" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ path(app.request.attributes.get('_route'), app.request.attributes.get('_route_params')) }}">
@@ -109,7 +109,12 @@
             <a href="#" target="_blank">{% trans %}footer.copy{% endtrans %}</a> &copy; 2020-{{ "now" | date("Y") }}
           <a href="mailto://{{ 'footer.mail.username'|trans }}@{{ 'footer.mail.domain'|trans }}">{{ 'footer.mail.title'|trans }}</a>.
           <br>
-
+          <ul class="">
+            <li><a href="#">{{ 'legal.terms'|trans}}</a></li>
+            <li><a href="#">{{ 'legal.disclaimer'|trans}}</a></li>
+            <li><a href="#">{{ 'legal.policy'|trans}}</a></li>
+            <li><a href="#">{{ 'legal.imprint'|trans}}</a></li>
+          </ul>
         </div>
       </div>
       {% endblock footer %}
